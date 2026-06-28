@@ -19,6 +19,7 @@ The API allows clients to:
 The solution follows Clean Architecture principles, separating responsibilities into independent layers.
 
 src
+
 ├── PurchaseTransaction.Api
 
 ├── PurchaseTransaction.Application
@@ -28,7 +29,9 @@ src
 └── PurchaseTransaction.Infrastructure
 
 tests
+
 ├── PurchaseTransaction.UnitTests
+
 └── PurchaseTransaction.IntegrationTests
 
 # Layer Responsibilities
