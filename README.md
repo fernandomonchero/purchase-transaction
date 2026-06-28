@@ -20,8 +20,11 @@ The solution follows Clean Architecture principles, separating responsibilities 
 
 src
 ├── PurchaseTransaction.Api
+
 ├── PurchaseTransaction.Application
+
 ├── PurchaseTransaction.Domain
+
 └── PurchaseTransaction.Infrastructure
 
 tests
