@@ -71,15 +71,25 @@ These choices make the application easier to maintain, test and extend.
 # Project Structure
 
 PurchaseTransaction
+
 │
+
 ├── src
+
 │
+
 ├── tests
+
 │
+
 ├── docker-compose.yml
+
 │
+
 ├── README.md
+
 │
+
 └── LICENSE
 	
 # Running the Project
@@ -126,6 +136,7 @@ dotnet test
 
 # API Endpoints
 | Method | Endpoint | Description |
+|--------|----------|-------------|
 | POST | api/transactions | Creates a purchase transaction |
 | GET | api/transactions/{id} | Retrieves a transaction by ID |
 | GET | api/transactions | Retrieves all transactions |
