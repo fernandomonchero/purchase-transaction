@@ -36,6 +36,7 @@ tests
 
 # Layer Responsibilities
 | Layer | Responsibility |
+|-------|----------------|
 | API | HTTP endpoints, dependency injection and middleware configuration |
 | Domain | Business rules, entities and validation |
 | Infrastructure | Database access, external APIs and persistence |
