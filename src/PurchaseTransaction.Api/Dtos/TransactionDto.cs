@@ -5,7 +5,6 @@ namespace PurchaseTransaction.Api.Dtos
 {
     public class TransactionDto
     {
-        [Key]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "The {0} is required")]

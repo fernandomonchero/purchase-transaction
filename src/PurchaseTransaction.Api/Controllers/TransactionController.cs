@@ -3,7 +3,6 @@ using PurchaseTransaction.Api.Dtos;
 using PurchaseTransaction.Api.Mappings;
 using PurchaseTransaction.Domain.Interfaces;
 using PurchaseTransaction.Domain.Notifications;
-using PurchaseTransaction.Domain.Services;
 
 namespace PurchaseTransaction.Api.Controllers
 {
@@ -53,6 +52,8 @@ namespace PurchaseTransaction.Api.Controllers
             var transaction = TransactionMapper.ToEntity(transactionDto);
 
             await _transactionService.Add(transaction);
+
+            transactionDto.Id = transaction.Id;
 
             return ApiResponse(transactionDto);
         }

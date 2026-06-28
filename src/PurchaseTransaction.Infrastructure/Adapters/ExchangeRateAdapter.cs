@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 
 namespace PurchaseTransaction.Infrastructure.Adapters
 {
-    public sealed class ExchangeRateAdapter : IExchangeRateAdapter
+    public class ExchangeRateAdapter : IExchangeRateAdapter
     {
         private readonly HttpClient _httpClient;
         private const string ROUTE_PATH = "accounting/od/rates_of_exchange";

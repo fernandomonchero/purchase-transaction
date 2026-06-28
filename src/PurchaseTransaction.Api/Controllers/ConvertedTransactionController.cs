@@ -20,7 +20,7 @@ namespace PurchaseTransaction.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<ConvertedTransactionDto>> GetConverted(Guid id, string country)
+        public async Task<ActionResult<ConvertedTransactionDto>> Get(Guid id, string country)
         {
             var transaction = await _transactionRepository.Get(id);
 
