@@ -57,7 +57,7 @@ These choices make the application easier to maintain, test and extend.
 
 # Technologies
 
-- .NET 9
+- .NET 8
 - ASP.NET Core Web API
 - Entity Framework Core
 - SQL Server
